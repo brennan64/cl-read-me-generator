@@ -10,7 +10,7 @@ const generateRM = ({
   license,
 }) => ` # ${title}
 ${license}
-### Description{#desc}
+### Description
 ${description}
 ### Installation Tips {#inst}
 ${installationTips}
@@ -20,7 +20,7 @@ ${usageInfo}
 ${collabGuide}
 
 ## Table of Contents {#TOC}
-[Description]( #desc)
+[Description]( #description)
 [Installation]( #inst)
 [Usage-Info]( #usage)
 [Description]( #desc)
