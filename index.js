@@ -14,16 +14,16 @@ ${license}
 ${description}
 ## Installation Tips 
 ${installationTips}
-###Usage Info
+## Usage Info
 ${usageInfo}
-## Collaboration Guide 
-${collabGuide}
+## Questions 
+Email ${collabGuide} with questions, concerns, or if you would like to collaborate!
 
 ### Table of Contents
 [Description](#description)
 [Installation](#Installation-Tips)
 [Usage-Info](#Usage-Info)
-[Collaboration-Guide](#Collabaration-Guide)
+[Collaboration](#Questions)
 `;
 inquirer
   .prompt([
@@ -50,7 +50,7 @@ inquirer
     {
       type: "input",
       name: "collabGuide",
-      message: "Enter guide to collaborate",
+      message: "Enter an email where collaborators can reach you",
     },
     {
       type: "list",
