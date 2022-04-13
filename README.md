@@ -1,26 +1,16 @@
-# README Gen
-
+ # README GEN
 Mozilla Public License 2.0
-
-## Description {#desc}
-
-A command line application to create a README file for any project.
-
+## Description (#desc)
+daasdas tessdfdsf dsf sdfsdfs dsf hfdgsfg sdfsdfs dfsdf sdfsfsdfsdsfdfsdfsdgfdh   sfjosdifjosdjfosdjf fjsod jfsodjf dshf osdhf sf 
 ## Installation Tips {#inst}
-
-download the app, download the inquirer npm package, start node in your terminal.
-
+fdsfhnksdfhksdfhsdkufhskdfhsudkh fsfh  sfhsdkfh ksdhf skdfhskd hskfn skdfns
 ## Usage Info {#usage}
-
-created using the latest version of inquirer.
-
+dfsfsd fdfsdfsd fsdf sfs sdsd 
 ## Collaboration Guide {#guide}
-
-contact me at dev.mail.bag@gmail.com
+dsfsd fsdf dfsf sdfs fsd fs sd 
 
 ## Table of Contents {#TOC}
-
-[Description](#desc)
-[Installation](#inst)
-[Usage-info](#usage)
-[Collaboration-guide](#guide)
+[Description]( #desc)
+[Installation]( #inst)
+[Usage Info]( #usage)
+[Collaboration Guide]( #guide)
