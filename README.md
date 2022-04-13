@@ -1,2 +1,6 @@
-# cl-read-me-generator
-command line app to create a readme file.
+ # brenna
+Mozilla Public License 2.0
+write up
+README
+README
+README

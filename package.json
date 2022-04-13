@@ -1,0 +1,23 @@
+{
+  "name": "cl-read-me-generator",
+  "version": "1.0.0",
+  "description": "command line app to create a readme file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brennan64/cl-read-me-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brennan64/cl-read-me-generator/issues"
+  },
+  "homepage": "https://github.com/brennan64/cl-read-me-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.2"
+  }
+}
