@@ -10,10 +10,21 @@ const generateRM = ({
   license,
 }) => ` # ${title}
 ${license}
+## Description {#desc}
 ${description}
+## Installation Tips {#inst}
 ${installationTips}
+## Usage Info {#usage}
 ${usageInfo}
-${collabGuide}`;
+## Collaboration Guide {#guide}
+${collabGuide}
+
+## Table of Contents {#TOC}
+[Description]( #desc)
+[Installation]( #inst)
+[Usage Info]( #usage)
+[Collaboration Guide]( #guide)
+`;
 inquirer
   .prompt([
     {
