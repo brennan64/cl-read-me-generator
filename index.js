@@ -10,7 +10,7 @@ const generateRM = ({
   license,
 }) => ` # ${title}
 ${license}
-## Description (#desc)
+## Description {#desc}
 ${description}
 ## Installation Tips {#inst}
 ${installationTips}
@@ -22,8 +22,8 @@ ${collabGuide}
 ## Table of Contents {#TOC}
 [Description]( #desc)
 [Installation]( #inst)
-[Usage Info]( #usage)
-[Collaboration Guide]( #guide)
+[Usage-Info]( #usage)
+[Description]( #desc)
 `;
 inquirer
   .prompt([
@@ -67,6 +67,6 @@ inquirer
   .then((answers) => {
     const pageContents = generateRM(answers);
     fs.writeFile("README.MD", pageContents, (err) =>
-      err ? console.log(err) : console.log("sucess")
+      err ? console.log(err) : console.log("a new README is born")
     );
   });
