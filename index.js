@@ -10,7 +10,7 @@ const generateRM = ({
   license,
 }) => ` # ${title}
 ${license}
-## Description {#desc}
+## Description (#desc)
 ${description}
 ## Installation Tips {#inst}
 ${installationTips}
